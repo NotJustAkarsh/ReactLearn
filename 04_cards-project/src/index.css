@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+.body{
+  background-color: black;
+}
+
+.parent{
+  display: flex;
+  min-height: 100vh;
+  gap: 10px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: white;
+  border-radius: 20px;
+  height: 330px;
+  width: 280px;
+  margin: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.center span{
+  font-size: 12px;
+  color: gray;
+}
+
+.center h3{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.center h2{
+  font-size: 19px;
+  font-weight: 400;
+}  
+
+.card img{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 0px;
+}
+
+.top button{
+  display: flex;
+  border: none;
+  align-items: center;
+  border-radius: 8px;
+  gap: 10px;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid #dadada;
+  transition: all .5s ease;
+}
+
+.top button:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.bottom{
+  padding-top: 15px;
+  display: flex;
+  border-top: 2px solid #b1b1b175;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom h3{
+  font-size: 18px;
+}
+
+.bottom p{
+  font-size: 15px;
+  color: gray;
+}
+
+.tag{
+  display: flex;
+  gap: 10px;
+}
+
+.tag h4{
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #dadada;
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.bottom button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  transition: all .5s;
+}
+
+.bottom button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
