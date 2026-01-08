@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.light{
+  background-color: aqua;
+  display: flex;
+  justify-content:space-between ;
+  padding: 14px 20px;
+  align-items: center;
+}
+
+.dark{
+  background-color: darkslateblue;
+  display: flex;
+  justify-content:space-between ;
+  padding: 14px 20px;
+  align-items: center;
+}
+
+.nav2{
+  display: flex;
+  gap: 10px;
+  justify-content:space-between ;
+}
